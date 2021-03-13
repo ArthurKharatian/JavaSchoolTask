@@ -6,6 +6,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class StringParser {
+
     public static void main(String[] args) {
         System.out.println(parseString(null)); // expected -> Invalid data!
         System.out.println(parseString("")); // expected -> Invalid data!
